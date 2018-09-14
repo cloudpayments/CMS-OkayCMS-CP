@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <module>
+	    <name>
+		    Cloudpayments
+	    </name>
+	        <settings>
+		        <variable>publicId</variable>
+		        <name>Публичный ключ (PUBLIC ID)</name>
+	        </settings>
+	        <settings>
+		        <variable>API</variable>
+		        <name>Секретный ключ (API)</name>
+	        </settings>
+	        <settings>
+		        <variable>language</variable>
+		        <name>Локализация виджета</name>
+		        <options>
+			        <name>Системный язык</name>
+			        <value>lans</value>
+		        </options>
+		        <options>
+			        <name>Русский</name>
+			        <value>ru-RU</value>
+		        </options>
+		        <options>
+			        <name>English</name>
+			        <value>en-US</value>
+		        </options>
+		        <options>
+			        <name>Український</name>
+			        <value>uk</value>
+		        </options>
+		        <options>
+			        <name>Latviešu</name>
+			        <value>lv</value>
+		        </options>
+		        <options>
+			        <name>Azərbaycan</name>
+			        <value>az</value>
+		        </options>
+		        <options>
+			        <name>Русский (часовой пояс ALMT)</name>
+			        <value>kk</value>
+		        </options>
+		        <options>
+			        <name>Қазақ</name>
+			        <value>kk-KZ</value>
+		        </options>
+		        <options>
+			        <name>Polski</name>
+			        <value>pl</value>
+		        </options>
+		        <options>
+			        <name>Português</name>
+			        <value>pt</value>
+		        </options>
+	        </settings>
+	        <settings>
+		        <variable>taxationSystem</variable>
+		        <name>Система налогообложения</name>
+		        <options>
+			        <name>Общая система налогообложения</name>
+			        <value>0</value>
+		        </options>
+		        <options>
+			        <name>Упрощенная система налогообложения (Доход)</name>
+			        <value>1</value>
+		        </options>
+		        <options>
+			        <name>Упрощенная система налогообложения (Доход минус Расход)</name>
+			        <value>2</value>
+		        </options>
+		        <options>
+			        <name>Единый налог на вмененный доход</name>
+			        <value>3</value>
+		        </options>
+		        <options>
+			        <name>Единый сельскохозяйственный налог</name>
+			        <value>4</value>
+		        </options>
+		        <options>
+			        <name>Патентная система налогообложения</name>
+			        <value>5</value>
+		        </options>
+	        </settings>
+	        <settings>
+		        <variable>vat</variable>
+		        <name>Ставка НДС</name>
+		        <options>
+			        <name>НДС не облагается</name>
+			        <value>null</value>
+		        </options>
+		        <options>
+			        <name>НДС 18%</name>
+			        <value>18</value>
+		        </options>
+		        <options>
+			        <name>НДС 10%</name>
+			        <value>10</value>
+		        </options>
+		        <options>
+			        <name>НДС 0%</name>
+			        <value>0</value>
+		        </options>
+		        <options>
+			        <name>расчетный НДС 10/110</name>
+			        <value>110</value>
+		        </options>
+		        <options>
+			        <name>расчетный НДС 18/118</name>
+			        <value>118</value>
+		        </options>
+	        </settings>
+	        <settings>
+		        <variable>vatd</variable>
+		        <name>Ставка НДС для доставки</name>
+		        <options>
+			        <name>НДС не облагается</name>
+			        <value>null</value>
+		        </options>
+		        <options>
+			        <name>НДС 18%</name>
+			        <value>18</value>
+		        </options>
+		        <options>
+			        <name>НДС 10%</name>
+			        <value>10</value>
+		        </options>
+		        <options>
+			        <name>НДС 0%</name>
+			        <value>0</value>
+		        </options>
+		        <options>
+			        <name>расчетный НДС 10/110</name>
+			        <value>110</value>
+		        </options>
+		        <options>
+			        <name>расчетный НДС 18/118</name>
+			        <value>118</value>
+		        </options>
+	        </settings>
+	        <settings>
+		        <variable>kassa</variable>
+		        <name>Онлайн-касса</name>
+		        <options>
+			        <value>1</value>
+		        </options>
+	        </settings>
+    </module>
