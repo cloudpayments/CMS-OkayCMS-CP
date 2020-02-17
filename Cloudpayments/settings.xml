@@ -12,12 +12,36 @@
 		        <name>Секретный ключ (API)</name>
 	        </settings>
 	        <settings>
+		        <variable>payment_scheme</variable>
+		        <name>Схема проведения платежа</name>
+		        <options>
+			        <name>Одностадийная</name>
+			        <value>charge</value>
+		        </options>
+		        <options>
+			        <name>Двухстадийная</name>
+			        <value>auth</value>
+		        </options>
+	        </settings>
+	        <settings>
+		        <variable>skin</variable>
+		        <name>Дизайн виджета</name>
+		        <options>
+			        <name>Classic</name>
+			        <value>classic</value>
+		        </options>
+		        <options>
+			        <name>Modern</name>
+			        <value>modern</value>
+		        </options>
+		         <options>
+			        <name>Mini</name>
+			        <value>mini</value>
+		        </options>
+	        </settings>
+	        <settings>
 		        <variable>language</variable>
 		        <name>Локализация виджета</name>
-		        <options>
-			        <name>Системный язык</name>
-			        <value>lans</value>
-		        </options>
 		        <options>
 			        <name>Русский</name>
 			        <value>ru-RU</value>
@@ -91,8 +115,8 @@
 			        <value>null</value>
 		        </options>
 		        <options>
-			        <name>НДС 18%</name>
-			        <value>18</value>
+			        <name>НДС 20%</name>
+			        <value>20</value>
 		        </options>
 		        <options>
 			        <name>НДС 10%</name>
@@ -107,8 +131,8 @@
 			        <value>110</value>
 		        </options>
 		        <options>
-			        <name>расчетный НДС 18/118</name>
-			        <value>118</value>
+			        <name>расчетный НДС 20/120</name>
+			        <value>120</value>
 		        </options>
 	        </settings>
 	        <settings>
@@ -119,8 +143,8 @@
 			        <value>null</value>
 		        </options>
 		        <options>
-			        <name>НДС 18%</name>
-			        <value>18</value>
+			        <name>НДС 20%</name>
+			        <value>20</value>
 		        </options>
 		        <options>
 			        <name>НДС 10%</name>
@@ -135,8 +159,8 @@
 			        <value>110</value>
 		        </options>
 		        <options>
-			        <name>расчетный НДС 18/118</name>
-			        <value>118</value>
+			        <name>расчетный НДС 20/120</name>
+			        <value>120</value>
 		        </options>
 	        </settings>
 	        <settings>
